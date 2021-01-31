@@ -82,6 +82,8 @@ function readURL(input) {
     var select_type = $("input[name=choice-meat]:checked").val();
     //console.log(type);
     reader.onload = function (e) {
+      $('.notice-message').hide();
+
       $('.image-upload-wrap').hide();
 
       $('.file-upload-image').attr('src', e.target.result);
@@ -89,6 +91,7 @@ function readURL(input) {
 
       $('.image-title').html(input.files[0].name);
       $('#spinner').show();
+
     };
 
     reader.readAsDataURL(input.files[0]);
@@ -104,7 +107,7 @@ function readURL(input) {
         });
         if ($('#restart-button').css("display") == "none") {
           $('#restart-button').css("display", "block");
-          $('.notice-message').hide();
+         
         }
       });
     });
