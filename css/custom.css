@@ -305,6 +305,11 @@ body {
     margin: 0 auto;
   }
 
+.ad-banner-square {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
 input[type=radio]{
   width: 0;
   height: 0;
