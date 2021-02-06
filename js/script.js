@@ -118,7 +118,7 @@ function readURL(input) {
 }
 
 function removeUpload() {
-  $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+  $('.file-upload-input').replaceWith($('.file-upload-input').clone(true));
   $('.file-upload-input').val("");
   $('.file-upload-content').hide();
   $('.image-upload-wrap').show();
