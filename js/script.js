@@ -151,7 +151,7 @@ function classChange(meatName) {
 
       break;
     case "chadolbaki":
-      resultMessage = "차돌박이";
+      resultMessage = "차돌박이(소)";
 
       break;
     case "soapdari":
@@ -175,11 +175,11 @@ function classChange(meatName) {
 
       break;
     case "galmegisal":
-      resultMessage = "갈매기살";
+      resultMessage = "갈매기살(돼지)";
 
       break;
     case "hongdukkesal":
-      resultMessage = "홍두깨살";
+      resultMessage = "홍두깨살(소)";
 
       break;
     case "deungsim":
@@ -187,19 +187,19 @@ function classChange(meatName) {
 
       break;
     case "chekkeutsal":
-      resultMessage = "채끝살";
+      resultMessage = "채끝살(소)";
 
       break;
     case "gabrisal":
-      resultMessage = "가브리살";
+      resultMessage = "가브리살(돼지)";
 
       break;
     case "hangeongsal":
-      resultMessage = "항정살";
+      resultMessage = "항정살(돼지)";
 
       break;
     case "samgyeapsal":
-      resultMessage = "삼겹살";
+      resultMessage = "삼겹살(돼지)";
 
       break;
     case "galbisal":
@@ -211,7 +211,7 @@ function classChange(meatName) {
 
       break;
     case "doganisal":
-      resultMessage = "도가니살";
+      resultMessage = "도가니살(소)";
 
       break;
     case "ditdarisal":
