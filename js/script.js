@@ -119,6 +119,7 @@ function readURL(input) {
 
 function removeUpload() {
   $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+  $('.file-upload-input').val("");
   $('.file-upload-content').hide();
   $('.image-upload-wrap').show();
   $("#percent-area").empty();
@@ -133,6 +134,7 @@ function removeUpload() {
               + '</div>';
   $('#result-area').append(spin);
 }
+
 $('.image-upload-wrap').bind('dragover', function () {
   $('.image-upload-wrap').addClass('image-dropping');
 });
